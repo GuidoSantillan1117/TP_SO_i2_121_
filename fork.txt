@@ -1,4 +1,4 @@
-Guido Santillan | 08:59
+Guido Santillan | 4:00am
 
 Adaptador de Ethernet Ethernet:
 
@@ -20,3 +20,11 @@ Adaptador de Ethernet Conexión de red Bluetooth:
    Estado de los medios. . . . . . . . . . . : medios desconectados
    Sufijo DNS específico para la conexión. . :
 
+Matias Skenen | 4:03am
+Adaptador de Ethernet Ethernet 2:
+
+   Sufijo DNS específico para la conexión. . :
+   Vínculo: dirección IPv6 local. . . : fe80::124f:4d53:8e91:4143%13
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.56.1
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . :
