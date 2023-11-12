@@ -19,3 +19,85 @@ d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quie
 el fork?
 No, los datos que esten dentro del fork no se van a perder si se actualiza el mismo con los datos del
   repositorio original.
+
+e- realizar un listado, paso a paso, de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos.
+
+1)
+BETA Quimey Rojo: 
+(crea el repo en github con el readme)
+git clone https://github.com/wytsrttoml/TP_SO_i2_121
+agrego el archivo fork.txt
+git add .
+git commit -m "cree fork"
+git push
+
+2)
+GAMMA Guido Santillan:
+forkea el repositorio principal de Beta
+https://github.com/GuidoSantillan1117/TP_SO_i2_121_
+Modifica el archivo y agrega la ip, el nombre y apellido
+git add .
+git commit -m "Datos IP Guido"
+git push
+
+3)
+BETA Quimey Rojo: 
+hace pull request de fork de gamma
+
+4)
+ALFA Matias Skenen:
+forkea el repositorio principal de Beta
+https://github.com/matiastaoskn/TP_SO_i2_121
+Modifica el archivo y agrega la ip, el nombre y apellido
+git add .
+git commit -m "Agrego datos nombre y ip"
+git push
+
+5)
+BETA Quimey Rojo:
+git pull
+agrega NuevoDato.txt
+git add .
+git commit -m "agrego dato"
+git push
+
+6)
+GAMMA Guido Santillan:
+git remote add upstream https://github.com/GuidoSantillan1117/TP_SO_i2_121_
+git fetch upstream
+git merge upstream/master
+git push
+
+7)
+BETA Quimey Rojo:
+git pull
+Agrega los archivos de gamma
+git add .
+git commit -m "respuesta.txt"
+git push
+
+8)
+GAMMA Guido Santillan:
+git fetch upstream
+git merge upstream/master
+Agrega respuestas a y b al archivo
+git add .
+git commit -m "Respuestas GAMMA"
+git push
+
+9)
+BETA HACE UN PULL REQUEST
+Agrega la respuesta E
+git add .
+git commit -m "agrega respuesta c y d"
+git push
+
+10)
+ALFA MATIAS SKENEN
+git fetch upstream
+git merge upstream/main
+Agrega la respuesta E
+git add .
+git commit -m "agrego respuestas e"
+git push
