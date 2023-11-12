@@ -11,3 +11,11 @@ y despues hago'git merge upstream/master'
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
 Si se puede pero en este caso no lo utilizamos, ALFA deberia solicitar un PULL REQUEST y GAMMA aceptarlo.
 
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+No, ya que los forkeos de GAMMA y ALFA no tienen conexion entre si, como son copias del de BETA
+  no pueden pushear cambios al mismo, por lo tanto no pueden pullear los cambios que hagan entre ellos.
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+No, los datos que esten dentro del fork no se van a perder si se actualiza el mismo con los datos del
+  repositorio original.
