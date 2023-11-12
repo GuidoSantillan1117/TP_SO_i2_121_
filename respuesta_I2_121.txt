@@ -1,3 +1,13 @@
-Rojo Quimey
-Skenen Matias
-Santillan Guido
+ALFA: Skenen Matias
+BETA: Rojo Quimey
+GAMMA: Santillan Guido
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+
+Agrego el repositorio original: "git remote add upstream (Repositorio del BETA)". 
+Actualizo mi repositorio local con los cambios del repositorio original usando  "git fetch upstream" 
+y despues hago'git merge upstream/master'
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+Si se puede pero en este caso no lo utilizamos, ALFA deberia solicitar un PULL REQUEST y GAMMA aceptarlo.
+
